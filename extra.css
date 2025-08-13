@@ -1,0 +1,26 @@
+.scrolling {
+    animation: slidein linear 30s infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateX(150vw);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  h2:hover i {
+    opacity: 1;
+  }
+
+  .part:hover button {
+    background-color: white;
+    border: none;
+  }
+
+  .part:hover p {
+    color: black;
+  }
